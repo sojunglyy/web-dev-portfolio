@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Special+Gothic:wght@400..700&display=swap&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800");
+
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Martel Sans", sans-serif;
+  --font-body: "Special Gothic", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+@layer {
+}
